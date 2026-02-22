@@ -1,10 +1,9 @@
 {
     "framework": "vite",
-    "name": "nrzone-factory-management",
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "/"
+            "destination": "/index.html"
         }
     ]
 }
