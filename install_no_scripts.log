@@ -1,0 +1,49 @@
+npm verbose cli /usr/local/Cellar/node/25.4.0/bin/node /usr/local/bin/npm
+npm info using npm@11.7.0
+npm info using node@v25.4.0
+npm verbose title npm install
+npm verbose argv "install" "--ignore-scripts" "--loglevel" "verbose"
+npm verbose logfile logs-max:10 dir:/Users/macbook/.npm/_logs/2026-02-19T15_43_20_894Z-
+npm verbose logfile could not be created: Error: EPERM: operation not permitted, open '/Users/macbook/.npm/_logs/2026-02-19T15_43_20_894Z-debug-0.log'
+npm verbose logfile no logfile created
+npm verbose FetchError: Invalid response body while trying to fetch https://registry.npmjs.org/@types%2freact: EPERM: operation not permitted, open '/Users/macbook/.npm/_cacache/tmp/12795ecc'
+    at /usr/local/lib/node_modules/npm/node_modules/minipass-fetch/lib/body.js:170:15
+    at async Response.json (/usr/local/lib/node_modules/npm/node_modules/minipass-fetch/lib/body.js:75:17)
+    at async RegistryFetcher.packument (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:98:25)
+    at async RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:128:23)
+    at async #fetchManifest (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1216:20)
+    at async #nodeFromEdge (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1054:19)
+    at async #buildDepStep (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:918:11)
+    at async Arborist.buildIdealTree (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:170:7)
+    at async Promise.all (index 1)
+    at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:110:5)
+npm verbose type system
+npm verbose stack FetchError: Invalid response body while trying to fetch https://registry.npmjs.org/@types%2freact: EPERM: operation not permitted, open '/Users/macbook/.npm/_cacache/tmp/12795ecc'
+npm verbose stack     at /usr/local/lib/node_modules/npm/node_modules/minipass-fetch/lib/body.js:170:15
+npm verbose stack     at async Response.json (/usr/local/lib/node_modules/npm/node_modules/minipass-fetch/lib/body.js:75:17)
+npm verbose stack     at async RegistryFetcher.packument (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:98:25)
+npm verbose stack     at async RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:128:23)
+npm verbose stack     at async #fetchManifest (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1216:20)
+npm verbose stack     at async #nodeFromEdge (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1054:19)
+npm verbose stack     at async #buildDepStep (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:918:11)
+npm verbose stack     at async Arborist.buildIdealTree (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:170:7)
+npm verbose stack     at async Promise.all (index 1)
+npm verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:110:5)
+npm error code EPERM
+npm error syscall open
+npm error path /Users/macbook/.npm/_cacache/tmp/12795ecc
+npm error errno EPERM
+npm error
+npm error Your cache folder contains root-owned files, due to a bug in
+npm error previous versions of npm which has since been addressed.
+npm error
+npm error To permanently fix this problem, please run:
+npm error   sudo chown -R 501:20 "/Users/macbook/.npm"
+npm verbose cwd /Users/macbook/NRZONE FACTORY MANEGMENT
+npm verbose os Darwin 24.6.0
+npm verbose node v25.4.0
+npm verbose npm  v11.7.0
+npm verbose exit 1
+npm verbose code 1
+npm error Log files were not written due to an error writing to the directory: /Users/macbook/.npm/_logs
+npm error You can rerun the command with `--loglevel=verbose` to see the logs in your terminal

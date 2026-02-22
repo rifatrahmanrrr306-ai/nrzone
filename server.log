@@ -1,0 +1,7 @@
+
+> nrzone-dashboard@1.0.0 dev
+> vite
+
+Re-optimizing dependencies because lockfile has changed
+error when starting dev server:
+Error: EACCES: permission denied, rmdir '/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/.vite/deps'

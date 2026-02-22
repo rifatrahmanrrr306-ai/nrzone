@@ -1,0 +1,728 @@
+
+> nrzone-dashboard@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 19903 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: use --host to expose
+6:52:49 AM [vite] vite.config.js changed, restarting server...
+6:53:05 AM [vite] server restarted.
+7:09:51 AM [vite] hmr update /src/components/panels/ExpensePanel.jsx, /src/index.css
+7:10:10 AM [vite] hmr update /src/components/panels/ClientPanel.jsx, /src/index.css
+7:10:24 AM [vite] hmr update /src/components/panels/SettingsPanel.jsx, /src/index.css
+7:10:36 AM [vite] hmr update /src/components/panels/ExpensePanel.jsx, /src/index.css
+7:10:37 AM [vite] hmr update /src/components/panels/ExpensePanel.jsx, /src/index.css
+7:18:22 AM [vite] hmr update /src/components/panels/InventoryPanel.jsx, /src/index.css
+7:19:01 AM [vite] hmr update /src/components/panels/InventoryPanel.jsx, /src/index.css
+7:19:13 AM [vite] hmr update /src/components/panels/InventoryPanel.jsx, /src/index.css
+7:26:14 AM [vite] hmr update /src/components/panels/FactoryPanel.jsx, /src/index.css
+7:28:07 AM [vite] hmr update /src/components/panels/PataFactoryPanel.jsx, /src/index.css
+7:30:44 AM [vite] hmr update /src/components/panels/FactoryPanel.jsx, /src/index.css
+7:31:03 AM [vite] hmr update /src/components/panels/FactoryPanel.jsx, /src/index.css
+7:31:50 AM [vite] hmr update /src/components/panels/CuttingPanel.jsx, /src/index.css
+7:31:52 AM [vite] Internal server error: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx: Unexpected token, expected "}" (514:13)
+
+  512 |                     </div>
+  513 |                 </div>
+> 514 |             );
+      |              ^
+  515 | };
+  516 |
+  517 |             export default CuttingPanel;
+  Plugin: vite:react-babel
+  File: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx:514:13
+  512|                      </div>
+  513|                  </div>
+  514|              );
+     |               ^
+  515|  };
+  516|  
+      at constructor (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.expect (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6899:12)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4637:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4711:36)
+      at JSXParserMixin.jsxParseElement (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseReturnStatement (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13142:28)
+      at JSXParserMixin.parseStatementContent (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12798:21)
+      at JSXParserMixin.parseStatementLike (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseArrowExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12075:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11687:12)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+7:31:57 AM [vite] Internal server error: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx: Unexpected token, expected "}" (514:13)
+
+  512 |                     </div>
+  513 |                 </div>
+> 514 |             );
+      |              ^
+  515 | };
+  516 |
+  517 |             export default CuttingPanel;
+  Plugin: vite:react-babel
+  File: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx:514:13
+  512|                      </div>
+  513|                  </div>
+  514|              );
+     |               ^
+  515|  };
+  516|  
+      at constructor (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.expect (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6899:12)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4637:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4711:36)
+      at JSXParserMixin.jsxParseElement (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseReturnStatement (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13142:28)
+      at JSXParserMixin.parseStatementContent (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12798:21)
+      at JSXParserMixin.parseStatementLike (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseArrowExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12075:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11687:12)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+7:31:57 AM [vite] Internal server error: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx: Unexpected token, expected "}" (514:13)
+
+  512 |                     </div>
+  513 |                 </div>
+> 514 |             );
+      |              ^
+  515 | };
+  516 |
+  517 |             export default CuttingPanel;
+  Plugin: vite:react-babel
+  File: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx:514:13
+  512|                      </div>
+  513|                  </div>
+  514|              );
+     |               ^
+  515|  };
+  516|  
+      at constructor (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.expect (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6899:12)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4637:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4711:36)
+      at JSXParserMixin.jsxParseElement (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseReturnStatement (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13142:28)
+      at JSXParserMixin.parseStatementContent (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12798:21)
+      at JSXParserMixin.parseStatementLike (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseArrowExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12075:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11687:12)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+7:31:57 AM [vite] Internal server error: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx: Unexpected token, expected "}" (514:13)
+
+  512 |                     </div>
+  513 |                 </div>
+> 514 |             );
+      |              ^
+  515 | };
+  516 |
+  517 |             export default CuttingPanel;
+  Plugin: vite:react-babel
+  File: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx:514:13
+  512|                      </div>
+  513|                  </div>
+  514|              );
+     |               ^
+  515|  };
+  516|  
+      at constructor (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.expect (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6899:12)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4637:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4711:36)
+      at JSXParserMixin.jsxParseElement (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseReturnStatement (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13142:28)
+      at JSXParserMixin.parseStatementContent (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12798:21)
+      at JSXParserMixin.parseStatementLike (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseArrowExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12075:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11687:12)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+7:31:58 AM [vite] Internal server error: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx: Unexpected token, expected "}" (514:13)
+
+  512 |                     </div>
+  513 |                 </div>
+> 514 |             );
+      |              ^
+  515 | };
+  516 |
+  517 |             export default CuttingPanel;
+  Plugin: vite:react-babel
+  File: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx:514:13
+  512|                      </div>
+  513|                  </div>
+  514|              );
+     |               ^
+  515|  };
+  516|  
+      at constructor (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.expect (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6899:12)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4637:10)
+      at JSXParserMixin.jsxParseElementAt (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4711:36)
+      at JSXParserMixin.jsxParseElement (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseReturnStatement (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13142:28)
+      at JSXParserMixin.parseStatementContent (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12798:21)
+      at JSXParserMixin.parseStatementLike (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseArrowExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12075:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11687:12)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+7:32:32 AM [vite] hmr update /src/components/panels/CuttingPanel.jsx, /src/index.css
+7:32:32 AM [vite] Internal server error: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx: Unexpected token, expected "," (496:20)
+
+  494 |
+  495 |
+> 496 |                     {/* Back Button Bottom */}
+      |                     ^
+  497 |             <div className="pt-20 pb-10 flex justify-center">
+  498 |                 <button
+  499 |                     onClick={() => setActivePanel('Overview')}
+  Plugin: vite:react-babel
+  File: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx:496:20
+  494|  
+  495|  
+  496|                      {/* Back Button Bottom */}
+     |                      ^
+  497|              <div className="pt-20 pb-10 flex justify-center">
+  498|                  <button
+      at constructor (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.expect (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6899:12)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11661:14)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10986:34)
+      at JSXParserMixin.parseExprOpRightExpr (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10981:21)
+      at JSXParserMixin.parseExprOp (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10947:27)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10908:17)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4632:31)
+      at JSXParserMixin.jsxParseElementAt (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4711:36)
+      at JSXParserMixin.jsxParseElement (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:17)
+7:32:34 AM [vite] Internal server error: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx: Unexpected token, expected "," (496:20)
+
+  494 |
+  495 |
+> 496 |                     {/* Back Button Bottom */}
+      |                     ^
+  497 |             <div className="pt-20 pb-10 flex justify-center">
+  498 |                 <button
+  499 |                     onClick={() => setActivePanel('Overview')}
+  Plugin: vite:react-babel
+  File: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx:496:20
+  494|  
+  495|  
+  496|                      {/* Back Button Bottom */}
+     |                      ^
+  497|              <div className="pt-20 pb-10 flex justify-center">
+  498|                  <button
+      at constructor (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.expect (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6899:12)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11661:14)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10986:34)
+      at JSXParserMixin.parseExprOpRightExpr (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10981:21)
+      at JSXParserMixin.parseExprOp (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10947:27)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10908:17)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4632:31)
+      at JSXParserMixin.jsxParseElementAt (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4711:36)
+      at JSXParserMixin.jsxParseElement (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:17)
+7:32:35 AM [vite] Internal server error: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx: Unexpected token, expected "," (496:20)
+
+  494 |
+  495 |
+> 496 |                     {/* Back Button Bottom */}
+      |                     ^
+  497 |             <div className="pt-20 pb-10 flex justify-center">
+  498 |                 <button
+  499 |                     onClick={() => setActivePanel('Overview')}
+  Plugin: vite:react-babel
+  File: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx:496:20
+  494|  
+  495|  
+  496|                      {/* Back Button Bottom */}
+     |                      ^
+  497|              <div className="pt-20 pb-10 flex justify-center">
+  498|                  <button
+      at constructor (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.expect (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6899:12)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11661:14)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10986:34)
+      at JSXParserMixin.parseExprOpRightExpr (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10981:21)
+      at JSXParserMixin.parseExprOp (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10947:27)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10908:17)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4632:31)
+      at JSXParserMixin.jsxParseElementAt (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4711:36)
+      at JSXParserMixin.jsxParseElement (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:17)
+7:32:35 AM [vite] Internal server error: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx: Unexpected token, expected "," (496:20)
+
+  494 |
+  495 |
+> 496 |                     {/* Back Button Bottom */}
+      |                     ^
+  497 |             <div className="pt-20 pb-10 flex justify-center">
+  498 |                 <button
+  499 |                     onClick={() => setActivePanel('Overview')}
+  Plugin: vite:react-babel
+  File: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx:496:20
+  494|  
+  495|  
+  496|                      {/* Back Button Bottom */}
+     |                      ^
+  497|              <div className="pt-20 pb-10 flex justify-center">
+  498|                  <button
+      at constructor (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.expect (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6899:12)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11661:14)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10986:34)
+      at JSXParserMixin.parseExprOpRightExpr (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10981:21)
+      at JSXParserMixin.parseExprOp (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10947:27)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10908:17)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4632:31)
+      at JSXParserMixin.jsxParseElementAt (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4711:36)
+      at JSXParserMixin.jsxParseElement (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:17)
+7:32:36 AM [vite] Internal server error: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx: Unexpected token, expected "," (496:20)
+
+  494 |
+  495 |
+> 496 |                     {/* Back Button Bottom */}
+      |                     ^
+  497 |             <div className="pt-20 pb-10 flex justify-center">
+  498 |                 <button
+  499 |                     onClick={() => setActivePanel('Overview')}
+  Plugin: vite:react-babel
+  File: /Users/macbook/NRZONE FACTORY MANEGMENT/src/components/panels/CuttingPanel.jsx:496:20
+  494|  
+  495|  
+  496|                      {/* Back Button Bottom */}
+     |                      ^
+  497|              <div className="pt-20 pb-10 flex justify-center">
+  498|                  <button
+      at constructor (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.expect (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:6899:12)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11661:14)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10986:34)
+      at JSXParserMixin.parseExprOpRightExpr (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10981:21)
+      at JSXParserMixin.parseExprOp (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10947:27)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10908:17)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4632:31)
+      at JSXParserMixin.jsxParseElementAt (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4711:36)
+      at JSXParserMixin.jsxParseElement (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/Users/macbook/NRZONE FACTORY MANEGMENT/node_modules/@babel/parser/lib/index.js:10780:17)
+7:32:52 AM [vite] hmr update /src/components/panels/CuttingPanel.jsx, /src/index.css
+7:33:32 AM [vite] hmr update /src/components/panels/FactoryPanel.jsx, /src/index.css
+7:35:42 AM [vite] hmr update /src/components/panels/PataFactoryPanel.jsx, /src/index.css
+7:38:22 AM [vite] hmr update /src/components/panels/FactoryPanel.jsx, /src/index.css
+7:39:18 AM [vite] hmr update /src/components/panels/FactoryPanel.jsx, /src/index.css
+7:50:02 AM [vite] page reload src/AppContent.jsx
+7:51:59 AM [vite] hmr update /src/components/Overview.jsx, /src/index.css
+8:18:15 AM [vite] hmr update /src/App.jsx, /src/index.css
+8:18:17 AM [vite] page reload src/AppContent.jsx
+8:18:17 AM [vite] page reload src/OverviewRender.jsx
+8:18:17 AM [vite] hmr update /src/components/BusinessIntel.jsx, /src/index.css
+8:18:17 AM [vite] hmr update /src/components/Overview.jsx, /src/index.css
+8:18:17 AM [vite] hmr update /src/components/UIComponents.jsx, /src/index.css
+8:18:17 AM [vite] hmr update /src/components/WeeklyInvoice.jsx, /src/index.css
+8:18:17 AM [vite] hmr update /src/components/WorkerSummary.jsx, /src/index.css
+8:18:17 AM [vite] hmr update /src/components/panels/AttendancePanel.jsx, /src/index.css
+8:18:18 AM [vite] hmr update /src/components/panels/ClientPanel.jsx, /src/index.css
+8:18:19 AM [vite] hmr update /src/components/panels/CuttingPanel.jsx, /src/index.css
+8:18:19 AM [vite] hmr update /src/components/panels/ExpensePanel.jsx, /src/index.css
+8:18:19 AM [vite] hmr update /src/components/panels/CuttingPanel.jsx, /src/index.css
+8:18:19 AM [vite] hmr update /src/components/panels/FactoryPanel.jsx, /src/index.css
+8:18:19 AM [vite] hmr update /src/components/panels/InventoryPanel.jsx, /src/index.css
+8:18:19 AM [vite] hmr update /src/components/panels/OutsideWorkPanel.jsx, /src/index.css
+8:18:19 AM [vite] hmr update /src/components/panels/FactoryPanel.jsx, /src/index.css
+8:18:20 AM [vite] hmr update /src/components/panels/PataFactoryPanel.jsx, /src/index.css
+8:18:20 AM [vite] hmr update /src/components/panels/ReportsPanel.jsx, /src/index.css
+8:18:20 AM [vite] hmr update /src/components/panels/SettingsPanel.jsx, /src/index.css
+8:24:51 AM [vite] page reload src/AppContent.jsx
+8:26:28 AM [vite] hmr update /src/index.css, /src/App.jsx
+8:27:20 AM [vite] hmr update /src/components/Overview.jsx, /src/index.css
+9:25:19 AM [vite] .env changed, restarting server...
+9:25:32 AM [vite] .env changed, restarting server...
+9:27:24 AM [vite] server restarted.
